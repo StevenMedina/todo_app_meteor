@@ -18,6 +18,7 @@ caching-compiler@1.0.5
 caching-html-compiler@1.0.6
 callback-hook@1.0.9
 check@1.2.2
+coffeescript@1.1.0
 ddp@1.2.5
 ddp-client@1.2.8
 ddp-common@1.2.6
@@ -59,6 +60,11 @@ npm-bcrypt@0.8.6_1
 npm-mongo@1.4.44
 observe-sequence@1.0.12
 ordered-dict@1.0.8
+practicalmeteor:chai@2.1.0_1
+practicalmeteor:loglevel@1.2.0_2
+practicalmeteor:mocha@2.4.5_2
+practicalmeteor:mocha-core@0.1.4
+practicalmeteor:sinon@1.14.1_2
 promise@0.7.2
 random@1.0.9
 rate-limit@1.0.5
@@ -78,6 +84,7 @@ standard-minifier-js@1.0.7
 templating@1.1.10
 templating-tools@1.0.4
 tmeasday:check-npm-versions@0.1.1
+tmeasday:test-reporter-helpers@0.2.1
 tracker@1.0.14
 ui@1.0.11
 underscore@1.0.9
