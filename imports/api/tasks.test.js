@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Random } from 'meteor/random';
+import { assert } from 'meteor/practicalmeteor:chai';
 
 import { Tasks } from './tasks.js';
 
@@ -21,7 +22,7 @@ if ( Meteor.isServer ) {
             });
 
             it('can delete owned task', () => {
-                const deleteTask = Meteor.server.method_handlers['task.remove'];
+                const deleteTask = Meteor.server.method_handlers['tasks.remove'];
 
                 const invocation = {
                     userId
@@ -29,7 +30,7 @@ if ( Meteor.isServer ) {
 
                 deleteTask.apply(invocation, [taskId]);
 
-                assert.equal(Task.find().count(), 0);
+                assert.equal(Tasks.find().count(), 0);
             });
         });
     });
