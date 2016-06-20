@@ -1,2 +1,2 @@
-# todo_app_meteor
+# Todo App Meteor
 Create a TODO App In meteor
